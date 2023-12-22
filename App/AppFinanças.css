@@ -8,7 +8,7 @@ hr{
     height: 1px;
 }
 body{
-    background-color: rgb(159, 192, 175);
+    background-color: white;
 }
 header{
     width: 100vw;
@@ -18,7 +18,7 @@ header{
     justify-content: center;
     align-items: center; 
 
-    background-color: teal;
+    background-color: #46d1b2;
 }
 .title{
     color: white;
@@ -39,15 +39,15 @@ header{
 .card{
     width: 270px;
     height: 100px;
-    background-color: white;
+    background-color: #f5f5f6;
 
     display: flex;
     align-items: center;
     justify-content: space-around;
     flex-direction: column;
 
-    border: 1px solid white;
     border-radius: 5px;
+    box-shadow: 1px 1px 8px black;
    
    
 }
@@ -63,14 +63,14 @@ header{
     max-width: 1225vw;
     width: 80%;
     height: 5vh;
-    background-color: white;
+    background-color: #f5f5f6;
 
     display: flex;
     align-items: center;
     justify-content: space-around;
 
-    border: 1px solid white;
     border-radius: 5px;
+    box-shadow: 1px 1px 4px black;
 
     padding: 15px;
     margin: -20px auto;
@@ -78,10 +78,10 @@ header{
 .addBtn{
     width: 100px;
     height: 40px;
-    background-color: teal;
+    background-color:#46d1b2;
     color: white;
 
-    border: 1px solid white;
+    border: 1px solid #f5f5f6;
     border-radius: 5px;
 
     cursor: pointer;
@@ -94,8 +94,9 @@ header{
     margin-top: 40px;
     width: 82%;
     padding: 5px;
-    background-color: white;
+    background-color:#f5f5f6;
     border-radius: 5px;
+    box-shadow: 1px 1px 4px black;
 }
 .columns  {
     display: flex;
